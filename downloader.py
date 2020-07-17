@@ -27,5 +27,7 @@ while(opcao == 1):
     # Variavel recebendo o nome do arquivo.
     file_name = audiofile.tag.title
 
+    #renomeando arquivo
     os.rename(r'arquivo.mp3',r'{} -  {}.mp3'.format(i, file_name))
     i = i + 1
+    
